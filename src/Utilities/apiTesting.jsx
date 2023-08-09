@@ -1,10 +1,8 @@
-import Home from './Components/Home';
-import Login  from './Components/Login';
+
 import { useEffect, useState } from 'react';
 import fetchDataFromApi from './Utilities/api'
-import './App.css';
 
-function App() {
+function apiTesting() {
 
   useEffect(() => {
     response();
@@ -18,9 +16,9 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <div className="apiTesting">
     </div>
   );
 }
 
-export default App;
+export default apiTesting;
